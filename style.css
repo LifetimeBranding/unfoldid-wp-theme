@@ -1,0 +1,972 @@
+/*
+Theme Name: Unfoldid
+Description: Developed exclusively for Unfoldid by Lifetime Branding :)
+Version: 0.5 (Phase 1/2)
+Author: Lifetime Branding
+Author URI: http://www.lifetimebranding.com/
+License URI: MIT License
+Text Domain: Unfoldid
+Tags: one-column, grid-layout
+*/
+
+/*
+*
+* 
+*   FONTS
+*
+*
+*/
+
+@font-face {
+	font-family: 'Halcom-Book';
+	src: url('fonts/halcom-book.eot');
+	src: url('fonts/halcom-book.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom-book.woff2') format('woff2'),
+	     url('fonts/halcom-book.woff') format('woff'),
+	     url('fonts/halcom-book.ttf') format('truetype'),
+	     url('fonts/halcom-book.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halcom';
+	src: url('fonts/halcom.eot');
+	src: url('fonts/halcom.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom.woff2') format('woff2'),
+	     url('fonts/halcom.woff') format('woff'),
+	     url('fonts/halcom.ttf') format('truetype'),
+	     url('fonts/halcom.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halcom-Medium';
+	src: url('fonts/halcom-medium.eot');
+	src: url('fonts/halcom-medium.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom-medium.woff2') format('woff2'),
+	     url('fonts/halcom-medium.woff') format('woff'),
+	     url('fonts/halcom-medium.ttf') format('truetype'),
+	     url('fonts/halcom-medium.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halcom-Light';
+	src: url('fonts/halcom-light.eot');
+	src: url('fonts/halcom-light.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom-light.woff2') format('woff2'),
+	     url('fonts/halcom-light.woff') format('woff'),
+	     url('fonts/halcom-light.ttf') format('truetype'),
+	     url('fonts/halcom-light.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Escrow-Banner';
+  src: url('fonts/EscrowBanner-Roman.eot?#iefix') format('embedded-opentype'),  url('fonts/EscrowBanner-Roman.otf')  format('opentype'),
+	     url('fonts/EscrowBanner-Roman.woff') format('woff'), url('fonts/EscrowBanner-Roman.ttf')  format('truetype'), url('fonts/EscrowBanner-Roman.svg#EscrowBanner-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font__escrow-banner   {
+  font-family: 'Escrow-Banner' !important;
+}
+
+.font__halcom {
+  font-family: 'Halcom-Book' !important;
+}
+
+.font__halcom-light {
+  font-family: 'Halcom-Light' !important;
+}
+
+.font__halcom-medium {
+  font-family: 'Halcom-Medium' !important;
+}
+
+/*
+*
+* 
+*   DOM ELEMENTS
+*
+*
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Escrow-Banner' !important;
+}
+
+body {
+  font-family: 'Halcom-Book' !important;
+  font-size: 1em;
+}
+
+/*
+*
+* 
+*   NAVIGATION
+*
+*
+*/
+
+.owl-next {
+  width: 35px !important;
+  border-radius: 0px !important;
+}
+
+.owl-prev {
+  width: 35px !important;
+  border-radius: 0px !important;
+}
+
+#about-arrow-left {
+  position: absolute; 
+  z-index: 99; 
+  top: 35%; 
+  left: 15px; 
+  user-select: none; 
+  cursor: pointer;
+  outline: 0;
+}
+
+#about-arrow-left > span > i {
+  color: #fff;
+}
+
+#about-arrow-right > span > i {
+  color: #fff;
+}
+
+#about-arrow-right {
+  position: absolute; 
+  z-index: 99; 
+  top: 35%; 
+  right: 15px; 
+  cursor: pointer; 
+  user-select: none; 
+  outline: 0;
+}
+
+.navbar {
+  display: none;
+  content: 'A';
+}
+
+a.fm-button {
+  color: black !important;
+  font-weight: bolder !important;
+  visibility: visible;
+}
+
+button:active {
+  color: #5B5C5F;
+}
+
+#unfoldid-logo-button {
+  margin: 0;
+  width: 100px;
+  position: relative;
+  left: -168px;
+  font-weight: 300 !important;
+  top: 0px;
+  pointer-events: none;
+  font-family: 'Halcom' !important;
+  font-size: 1em !important;
+  padding: 0.5em 1em 0.5em 1em;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/*
+*
+* 
+*   LINKS
+*
+*
+*/
+
+a:link {
+  color: #5B5C5F;
+}
+a:visited {
+  color: #5B5C5F;
+}
+a:hover{
+  color: #B0851E;
+  
+}
+a.services-link, a.modal-link {
+  color: #B0851E;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+dd > a {
+  color: #fff !important;
+}
+
+a[href^="tel"] {
+  color: white !important;
+}
+
+/*
+*
+* 
+*   HEADERS
+*
+*
+*/
+
+hr.hr__decorator--underline {
+  width: 5px;
+  height: 2px;
+}
+h1.big {
+  font-size: 4em;
+}
+h1.bigger {
+  font-size: 6.5em;
+}
+h1.header__hero {
+  max-width: 400px;
+  font-size: 4em;
+  margin: 2em auto auto auto;
+}
+h2.medium {
+  font-size: 2em;
+}
+
+/*
+*
+* 
+*   TEXT
+*
+*
+*/
+
+.text-small {
+  font-size: 0.3em !important;
+}
+.text-transparent {
+  opacity: 0.75;
+}
+.text-tiny {
+  font-size: 0.5em !important;
+}
+.text-gold {
+  color: #B0851E;
+}
+.text-peach {
+  color: #EDD5C6;
+}
+.text-navy {
+  color: #093542;
+}
+.text-palenavy {
+  color: #273744;
+}
+.text-pink {
+  color: #C9A8A3;
+}
+.text-darkgray {
+  color: #5B5C5F;
+}
+.text-olive {
+  color: #757951;
+}
+.text-palepeach {
+  color: #E7D3C5;
+}
+
+/*
+*
+* 
+*   SECTIONS
+*
+*
+*/
+
+.modal-dialog {
+  padding-top: 15%;
+}
+
+.blog-hero {
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero {
+  height: 900px;
+
+}
+
+.page-template-hero {
+  background-image: url('images/girl-with-purse.jpg');
+  background-size: cover;
+  height: 800px;
+}
+
+.section__getunfoldid-package {
+  max-width: 400px;
+  height: 525px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.section__getunfoldid-package-mini {
+  max-width: 400px;
+  margin: auto !important;
+  padding: 20px !important;
+  text-align: center !important;
+  z-index: 1;
+}
+
+.section__getunfoldid-package > h2 {
+  margin-top: 50px;
+}
+.section__getunfoldid-package button {
+  position: absolute;
+  width: 125px;
+  margin-left: -62px;
+  bottom: 10px;
+}
+#section__home-hero {
+  background-image: url('images/clothes-on-rack-1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+#section__getunfoldid-hero {
+  background-image: url('images/clothes-on-rack-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -190px -50px;
+  height: 600px;
+}
+#section__home-steps {
+  background-image: url('images/outfit-grid-1.jpg');
+  background-position: center top;
+  padding: 3em;
+  text-align: center;
+}
+
+#section__partners-hero {
+  background-image: url('images/top-down-store-shot.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 3em;
+  text-align: center;
+  height: 600px;
+}
+
+#section__services-content {
+  background-repeat: no-repeat;
+}
+#section__getunfoldid-packages {
+  background-image: url('images/dress-and-shoes.jpg');
+  background-size: cover;
+  min-height: 700px;
+}
+
+.item > div > a.collapsed::after {
+  content: ' +' !important;
+}
+
+.item > div > a::after {
+  content: ' -' !important;
+}
+
+#section__home-aricia--bg-image {
+  background-image: url('images/aricia-pic-large.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+#section__getunfoldid-step-2 {
+  min-height: 400px;
+}
+#section__getunfoldid-step-3 {
+  min-height: 400px;
+}
+#section__home-steps--list {
+  min-height: 400px;
+}
+#section__home-quote {
+  background-image: url('images/bedroom-1.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+blockquote#homepage-quote {
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+}
+#section__about-hero {
+  background-image: url('images/group-photo.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+#section__about-contact{ 
+  background-color: #757951;
+}
+#section__services-hero {
+  background-image: url('images/for-him-or-for-her.jpg');
+  background-size: cover;
+  background-position: -200px 0;
+  height: 600px;
+}
+
+#section__press-hero {
+  background-image: url('images/press/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+.stylist__bio {
+  height: 727px !important;
+}
+.image__stylist {
+  display: none;
+}
+
+.image__headshot {
+  
+  width: 125px !important;
+  height: 121px !important;
+  margin: auto;
+  border-radius: 80px;
+}
+
+#stylist-bio-jessica {
+  background-image: url('images/stylist-photo-jessica.jpg');
+}
+#stylist-bio-aricia {
+  background-image: url('images/aricia-pic-large.jpg');
+}
+#stylist-bio-amanda {
+  background-image: url('images/stylist-photo-amanda.jpg');
+}
+
+#stylist-bio-molly {
+  background-image: url('images/stylist-photo-molly.jpg');
+}
+
+#stylist-bio-whitney {
+  background-image: url('images/stylist-photo-whitney.jpg');
+}
+
+/*
+*
+* 
+*   FORM ELEMENTS
+*
+*
+*/
+
+footer input[type="email"] {
+  padding: 5px;
+  height: 42px;
+  min-width: 300px;
+  border: 1px solid #5B5C5F;
+  border-radius: 0;
+}
+footer input[type="email"]::placeholder {
+  font-family: 'Halcom-Light';
+  text-align: center;
+  color: black;
+}
+
+/*
+*
+* 
+*   LISTS
+*
+*
+*/
+dt {
+  font-family: 'Escrow-Banner' !important;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+ul.ul__no-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.footer-links li {
+  margin-left: 0;
+  text-align: left;
+}
+ul.ul--left-aligned {
+  text-align: left;
+}
+
+/*
+*
+* 
+*   BUTTONS
+*
+*
+*/
+
+button {
+  cursor: pointer;
+  font-family: 'Halcom' !important;
+  font-size: 1em !important;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+button.button__navy-gold {
+  background-color: #093542;
+  border: 1px solid #B0851E;
+}
+button.button__gold-navy {
+  background-color: #B0851E;
+  border: 1px solid #093542;
+}
+button.button__white-gold {
+  background-color: #fff;
+  border: 1px solid #B0851E;
+}
+button.button__white-darkgray {
+  background-color: #fff;
+  border: 1px solid #5B5C5F;
+}
+button.button__gold-white {
+  background-color: #B0851E;
+  border: 1px solid #fff;
+}
+button.button__white-black {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+button.button__white-navy {
+  background-color: #fff;
+  border: 1px solid #093542;
+}
+button.button__white-palepeach {
+  background-color: #fff;
+  border: 1px solid #E7D3C5;
+}
+button.button__peach-navy {
+  background-color: #EDD5C6;
+  border: 1px solid #093542;
+}
+button.button__navy-white {
+  background-color: #093542;
+  border: 1px solid #fff;
+}
+#button__home--book-now {
+  color: #fff;
+}
+#button__home--get-unfoldid {
+  color: #fff;
+  font-size: 1em !important;
+}
+#button__home--meet-the-stylists {
+  color: #093542;
+  font-weight: bold;
+}
+#button__home--aricia-on-wbz {
+  color: white;
+}
+
+/*
+*
+* 
+*   RESPONSIVE DESIGNS
+*
+*
+*/
+
+@media (max-width: 374px) {
+  #section__about-hero {
+    background-position: -225px 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .section__getunfoldid-package button {
+    bottom: 30px;
+  }
+  #section__about-contact{ 
+    background-image: url('images/bedroom-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .page-template-hero {
+    height: 600px;
+  }
+  #stylist-bio-aricia {
+    background-size: cover;
+    background-position: top center !important;
+  }
+
+  #about-arrow-left {
+    top: 50%;
+  }
+
+  #about-arrow-left > span > i {
+    color: #5B5C5F;
+  }
+
+  #about-arrow-right > span > i {
+    color: #5B5C5F;
+  }
+
+  #about-arrow-right {
+    top: 50%;
+  }
+
+  .image__stylist {
+    display: flex;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px !important;
+  }
+  .stylist__bio {
+    height: 600px !important;
+  }
+  h1.header__hero {
+    max-width: 400px;
+    font-size: 7em;
+    margin: 1em auto auto auto;
+  }
+
+  .navbar-brand {
+    top: 15px;
+    left: calc(50% - 100px);
+    position: absolute;
+    padding: 0;
+    z-index: 2;
+  }
+
+  #section__services-content {
+    background-image: url('images/outfit-grid-2.jpg');
+    background-position: -500px -250px;
+    background-size: 80%;
+
+  }
+  #section__about-hero {
+    background-position: center -100px;
+    min-height: 900px;
+  }
+  #section__partners-hero {
+    min-height: 900px;
+  }
+  
+  #section__home-hero {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 900px;
+  }
+
+  #section__press-hero {
+    background-size: cover;
+    background-position: center -65px;
+    min-height: 1000px;
+  }
+
+  #button__home--get-unfoldid {
+    font-size: 1.5em !important;
+  }
+
+  #section__services-hero {
+    min-height: 900px;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+  }
+
+  blockquote#homepage-quote {
+    font-size: 3em;
+    line-height: 1.3em;
+    margin: 50px;
+    padding: 50px;
+  }
+
+  #section__home-steps {
+    background-size: cover;
+    background-position: center center;
+    padding: 5em;
+    min-height: 900px;
+  }
+
+  #section__home-aricia--bg-image {
+    min-height: 500px;
+  }
+  
+  #section__home-steps--list {
+    min-height: 400px;
+  }
+  
+  #section__home-aricia--bio {
+    max-width: 500px;
+    padding: 5em;
+    color: white;
+  }
+  
+  #section__about-contact{ 
+    padding: 7rem;
+    min-height: 650px;
+  }
+
+  #section__getunfoldid-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    min-height: 900px;
+  }
+
+  #section__getunfoldid-packages {
+    background-size: cover;
+    min-height: 700px;
+  }
+}
+@media (min-width: 1325px) {
+  #section__about-hero {
+    background-position: center -165px;
+  }
+  
+  #navbar-mobile-menu {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+  }
+  .nav-padding {
+    padding: 15px;
+  }
+  a.fm-button {
+    visibility: hidden;
+  }
+
+  #section__getunfoldid-packages {
+    padding: 5em;
+    min-height: 1000px;
+  }
+
+  #section__home--packages {
+    background-color: #E6E6E6;
+  }
+
+  #section__home--packages-carousel {
+
+    padding: 5em;
+  }
+}
+
+@media (min-width: 1560px) {
+  #section__about-hero {
+    background-position: center -230px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #section__about-hero {
+    background-position: center -230px;
+  }
+}
+
+/*
+*
+* 
+*   COLORS
+*
+*
+*/
+
+.blue {
+  background-color: lightblue;
+}
+.lightgray {
+  background-color: #E6E6E6;
+}
+.darkgray {
+  background-color: #5B5C5F;
+}
+.green {
+  background-color: lightseagreen;
+}
+.palenavy {
+  background-color: #273744;
+}
+.olive {
+  background-color: #757951;
+}
+.pink {
+  background-color: #C9A8A3;
+}
+.white {
+  background-color: #fff;
+}
+.navy {
+  background-color: #093542;
+}
+.teal {
+  background-color: teal;
+}
+.neonpink {
+  background-color: lightcoral;
+}
+.purple {
+  background-color: violet;
+}
+.gold {
+  background-color: #B0851E;
+}
+.peach {
+  background-color: #EDD5C6;
+}
+.palepeach {
+  background-color: #E7D3C5;
+}
+.silver {
+  background-color: silver;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float:right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+clip: rect(1px, 1px, 1px, 1px);
+position: absolute !important;
+      white-space: nowrap;
+height: 1px;
+width: 1px;
+overflow: hidden;
+}
+
+.screen-reader-text:focus {
+background-color: #f1f1f1;
+border-radius: 3px;
+box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+clip: auto !important;
+color: #21759b;
+display: block;
+font-size: 14px;
+font-size: 0.875rem;
+font-weight: bold;
+height: auto;
+left: 5px;
+line-height: normal;
+padding: 15px 23px 14px;
+text-decoration: none;
+top: 5px;
+width: auto;
+z-index: 100000; /* Above WP toolbar. */
+}
+
+/* == WP CSS - post_class() == */
+
+.post-id {}
+.post {}
+.page {}
+.attachment {}
+.sticky {}
+.hentry {}
+.category-misc {}
+.category-example {}
+.tag-news {}
+.tag-wordpress {}
+.tag-markup {}

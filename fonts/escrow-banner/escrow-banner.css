@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Escrow-Banner';
+  src: url('EscrowBanner-Roman.eot?#iefix') format('embedded-opentype'),  url('EscrowBanner-Roman.otf')  format('opentype'),
+	     url('EscrowBanner-Roman.woff') format('woff'), url('EscrowBanner-Roman.ttf')  format('truetype'), url('EscrowBanner-Roman.svg#EscrowBanner-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
