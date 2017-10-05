@@ -132,7 +132,7 @@ get_header();
             <div class="col-xs-12 col-md-8 pink text-center py-5 stylist__bio">
               <div class="mx-auto text-white" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Lisa</h1>
-                <h3 class="font__halcom">Master stylist</h3>
+                <h3 class="font__halcom">master stylist</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/lisa.png" alt="Lisa" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                 Lisa Mauriello received her BFA from MassArt where she studied Fashion Design and learned the technical nuts and bolts of designing, drafting and constructing beautiful unique garments. As a former private yoga instructor, she cultivated a sensitivity and passion for empowering others. Lisa learned fashion merchandising and buying while working at Louis Boston, New England’s most prestigious luxury boutique. Lisa utilizes her experiences, trained eye and dedication to connecting with her clients, to build a wardrobe that is timeless. 
@@ -149,7 +149,7 @@ get_header();
             <div class="col-xs-12 col-md-8 gold text-center py-5 stylist__bio">
               <div class="mx-auto text-white" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Emily</h1>
-                <h3 class="font__halcom">Celebrity stylist</h3>
+                <h3 class="font__halcom">celebrity stylist</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/emily.png" alt="Emily" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                 Emily Loftis’s stand out southern charm, mixed with her love of fashion has sent her on a wild ride. As a Style and Beauty expert, Emily has appeared on several daytime talk shows from "The Steve Harvey Show," to "The Insider", and is a regular contributor on "Good Day LA". Emily's passion is helping real women of all sizes feel just as glamorous as the celebrities she styles for Hollywood's Red Carpets. 
@@ -166,14 +166,14 @@ get_header();
             <div class="col-xs-12 col-md-8 olive text-center py-5 stylist__bio">
               <div class="mx-auto text-white" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Aricia</h1>
-                <h3 class="font__halcom">Unfoldid founder &amp; Master stylist</h3>
+                <h3 class="font__halcom">Unfoldid founder &amp; master stylist</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/aricia.png" alt="Aricia" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                   Aricia Symes-Elmer was born in the heart of New England as the only girl of five. Touting a double degree in International
                   Business and Asian Studies from University of Vermont and MBA from New York University, Aricia has traveled the world
                   working on a variety of roles in fashion.
                 </p>
-                <button class="button__white-black">Aricia on WBZ</button>
+                <button class="button__white-black button__booknow">book Aricia</button>
               </div>
             </div>
           </div>

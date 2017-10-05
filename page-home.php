@@ -4,11 +4,11 @@ get_header();
 
 <?php if (isset($_GET['referred'])) : ?>
 <div class="modal fade" id="redirect-from-sys-modal"> 
-<div class="modal-dialog modal-lg" role="document" style="padding-top: 15%">
+<div class="modal-dialog modal-lg" role="document" style="padding-top: 5%">
 <div class="text-center">
   <div class="modal-body">
     <div class="mx-auto" style="cursor: pointer" onclick="$('#redirect-from-sys-modal').modal('hide');">
-    <img src="//unfoldid.com/social-01.jpg" width="350" class="img-fluid p-0"><img src="//unfoldid.com/social-02.jpg" width="350" class="img-fluid p-0">
+      <img src="<?php echo get_template_directory_uri() ?>/images/redirect-pop-up.jpg" class="img-fluid">
     </div>
   </div>
 </div>
@@ -91,7 +91,7 @@ get_header();
     <div class="col-md-12 col-lg-8 navy text-center py-5">
       <div class="mx-auto text-white" style="max-width: 700px">
         <h1 class="font__escrow-banner bigger">Aricia</h1>
-        <h3 class="font__halcom">Unfoldid founder &amp; Master stylist</h3>
+        <h3 class="font__halcom">Unfoldid founder &amp; master stylist</h3>
         <p class="py-5" style="font-size: 1.2em;">Aricia Symes-Elmer was born in the heart of New England as the only girl of five. Touting a double degree in International
           Business and Asian Studies from University of Vermont and MBA from New York University, Aricia has traveled the
           world working on a variety of roles in fashion.</p>
