@@ -453,21 +453,28 @@ blockquote#homepage-quote {
 }
 
 #stylist-bio-jessica {
-  background-image: url('images/stylist-photo-jessica.jpg');
+  background-image: url('images/stylist-photos/jessica.jpg');
 }
 #stylist-bio-aricia {
   background-image: url('images/aricia-pic-large.jpg');
 }
 #stylist-bio-amanda {
-  background-image: url('images/stylist-photo-amanda.jpg');
+  background-image: url('images/stylist-photos/amanda.jpg');
 }
-
 #stylist-bio-molly {
-  background-image: url('images/stylist-photo-molly.jpg');
+  background-image: url('images/stylist-photos/molly.jpg');
 }
-
 #stylist-bio-whitney {
-  background-image: url('images/stylist-photo-whitney.jpg');
+  background-image: url('images/stylist-photos/whitney.jpg');
+}
+#stylist-bio-lisa {
+  background-image: url('images/stylist-photos/lisa.jpg');
+  background-size: cover !important;
+  background-position: -50px center;
+}
+#stylist-bio-emily {
+  background-image: url('images/stylist-photos/emily.jpg');
+  background-size: cover !important;
 }
 
 /*

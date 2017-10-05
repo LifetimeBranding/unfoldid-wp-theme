@@ -63,7 +63,7 @@ get_header();
               <div class="mx-auto text-white" style="max-width: 700px;">
                 <h1 class="font__escrow-banner bigger">Jessica</h1>
                 <h3 class="font__halcom">business manager</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/headshots/jessica.png" alt="Jessica" class="d-sm-none image__headshot">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/jessica.png" alt="Jessica" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">Jessica Bunting came to Unfoldid with a background in office management. Her experience working as an Executive
                   Assistant to the President of Prudential Insurance and later seamlessly managing a 21st century household
                   prepared her very well for managing the organized chaos of working with a team of creative minded stylists.</p>
@@ -79,7 +79,7 @@ get_header();
               <div class="mx-auto text-darkgray" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Whitney</h1>
                 <h3 class="font__halcom">senior stylist</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/headshots/whitney.png" alt="Whitney" class="d-sm-none image__headshot">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/whitney.png" alt="Whitney" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                   Whitney Torgerson was born and raised in the Greater Boston Area, a true Bostonian at heart. She received her BS in Marketing
                   and Management from Merrimack College. From working and interning in retail management and operations for
@@ -96,7 +96,7 @@ get_header();
               <div class="mx-auto text-white" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Molly</h1>
                 <h3 class="font__halcom">style manager</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/headshots/molly.png" alt="Molly" class="d-sm-none image__headshot">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/molly.png" alt="Molly" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                   Molly Foley brings a creative spirit and background in organizing to Unfoldid. With her Masters in Library Science from Simmons
                   College she uses her technological and organizational skills to create web-based apps and streamline systems.
@@ -114,7 +114,7 @@ get_header();
               <div class="mx-auto text-white" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Amanda</h1>
                 <h3 class="font__halcom">senior stylist</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/headshots/amanda.png" alt="Amanda" class="d-sm-none image__headshot">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/amanda.png" alt="Amanda" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                   Amanda Sanford Smith is a celebrated fashion and style expert as well as a design consultant for Best of Boston's Marrero
                   Events. Amanda is a well-respected fashion show designer and serves as a judge for many high-profile events
@@ -127,13 +127,47 @@ get_header();
           </div>
 
           <div class="item row">
+            <div id="stylist-bio-lisa" class="col-xs-12 col-md-4 image__stylist">
+            </div>
+            <div class="col-xs-12 col-md-8 pink text-center py-5 stylist__bio">
+              <div class="mx-auto text-white" style="max-width: 700px">
+                <h1 class="font__escrow-banner bigger">Lisa</h1>
+                <h3 class="font__halcom">Master stylist</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/lisa.png" alt="Lisa" class="d-sm-none image__headshot">
+                <p class="py-5" style="font-size: 1em;">
+                Lisa Mauriello received her BFA from MassArt where she studied Fashion Design and learned the technical nuts and bolts of designing, drafting and constructing beautiful unique garments. As a former private yoga instructor, she cultivated a sensitivity and passion for empowering others. Lisa learned fashion merchandising and buying while working at Louis Boston, New England’s most prestigious luxury boutique. Lisa utilizes her experiences, trained eye and dedication to connecting with her clients, to build a wardrobe that is timeless. 
+
+                </p>
+                <button class="button__white-black button__booknow">book Lisa</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div id="stylist-bio-emily" class="col-xs-12 col-md-4 image__stylist">
+            </div>
+            <div class="col-xs-12 col-md-8 gold text-center py-5 stylist__bio">
+              <div class="mx-auto text-white" style="max-width: 700px">
+                <h1 class="font__escrow-banner bigger">Emily</h1>
+                <h3 class="font__halcom">Celebrity stylist</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/emily.png" alt="Emily" class="d-sm-none image__headshot">
+                <p class="py-5" style="font-size: 1em;">
+                Emily Loftis’s stand out southern charm, mixed with her love of fashion has sent her on a wild ride. As a Style and Beauty expert, Emily has appeared on several daytime talk shows from "The Steve Harvey Show," to "The Insider", and is a regular contributor on "Good Day LA". Emily's passion is helping real women of all sizes feel just as glamorous as the celebrities she styles for Hollywood's Red Carpets. 
+
+                </p>
+                <button class="button__white-black button__booknow">book Emily</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item row">
             <div id="stylist-bio-aricia" class="col-xs-12 col-md-4 image__stylist">
             </div>
             <div class="col-xs-12 col-md-8 olive text-center py-5 stylist__bio">
               <div class="mx-auto text-white" style="max-width: 700px">
                 <h1 class="font__escrow-banner bigger">Aricia</h1>
                 <h3 class="font__halcom">Unfoldid founder &amp; Master stylist</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/headshots/aricia.png" alt="Aricia" class="d-sm-none image__headshot">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/aricia.png" alt="Aricia" class="d-sm-none image__headshot">
                 <p class="py-5" style="font-size: 1em;">
                   Aricia Symes-Elmer was born in the heart of New England as the only girl of five. Touting a double degree in International
                   Business and Asian Studies from University of Vermont and MBA from New York University, Aricia has traveled the world
