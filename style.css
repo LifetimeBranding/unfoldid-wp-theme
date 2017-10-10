@@ -303,6 +303,10 @@ h2.medium {
   background-position: center center;
 }
 
+button.btn__blog--active {
+  outline: 1.5px solid pink;
+}
+
 .hero {
   height: 900px;
 

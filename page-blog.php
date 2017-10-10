@@ -3,16 +3,17 @@ get_header();
 ?>
 
 <?php
+  $eventsActive = isset($_GET['events']);
+  $category = $eventsActive ? 9 : 3 ; // events post ID : blog post ID
   $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
   $query_args = array (
-    'category__in' => 3, // get_page_by_title( 'Blog' ),
+    'category__in' => $category,
     'paged' => $paged,
     'posts_per_page' => 3
   );
 
   $the_query = new WP_Query( $query_args ); 
-
 ?>
 
 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
@@ -24,8 +25,8 @@ get_header();
   <div class="col-12 mx-auto">
     <div class="text-center mt-5 mb-5">
       <h1 class="text-gold header__hero mb-5">Updates <span class="text-small font__halcom d-block py-3">and</span> events</h1>
-      <button class="button__white-gold">blog</button>
-      <button class="button__navy-white text-pink" data-toggle="tooltip" title="Coming Soon">events</button>
+      <button class="button__white-gold <?php if (!$eventsActive) echo 'btn__blog--active' ?>" onclick="location.href = '?posts'">blog</button>
+      <button class="button__navy-white text-pink <?php if ($eventsActive) echo 'btn__blog--active' ?>" onclick="location.href = '?events'">events</button>
     </div>
   </div>
 </div>
