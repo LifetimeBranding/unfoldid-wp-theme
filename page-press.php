@@ -56,10 +56,9 @@
       <?php endfor; ?>
       <!-- End Loop -->
     </div>
-    <!-- END PRESS ARTICLES -->
 
     <!-- COLLABORATORS -->
-    <h1 class="text-darkgray my-5">In collaboration with</h1>
+    <h1 class="text-darkgray mt-5">In collaboration with</h1>
       <div class="row">
         <?php for ($i = 0; $i < sizeof($collaborators); $i ++) : ?>
         <div class="col-sm-4 col-md-4 my-2">
@@ -69,9 +68,8 @@
           </a>
         </div>
       <?php endfor; ?>
-
       </div>
-    <!-- END COLLABORATORS -->
+
   </div>
 </div>
 
