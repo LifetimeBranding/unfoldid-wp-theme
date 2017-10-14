@@ -3,10 +3,28 @@
 
   // Title, URL, Image
   $press_content = array(
-    array("CBS Boston WBZ-TV","#", "wbz-tv.jpg"),
-    array("Northshore Mall", "#", "northshore-mall.jpg"),
-    array("Fashion Show Production", "#", "fashion-show-production.png"),
-    array("Style For Hire Certified", "#", "style-for-hired-certified.png")
+    array("CBS Boston WBZ-TV","#", "our-work/wbz-tv.jpg"),
+    array("Northshore Mall", "http://www.nshoremag.com/January-February-2012/Shift-Your-Style-With-Aricia-Symes-Elmer/", "our-work/northshore-mall.jpg"),
+    array("Fashion Show Production", "#", "our-work/fashion-show-production.png"),
+    array("Style For Hire Certified", "#", "our-work/style-for-hire-certified.png")
+  );
+
+  // Name, URL, Image
+  $collaborators = array (
+    array("Nordstrom", "", "collaborators/nordstrom.svg"),
+    array("Ann Taylor", "", "collaborators/ann-taylor.svg"),
+    array("Northshore Mall", "", "collaborators/northshore-mall.svg"),
+    array("Sara Campbell", "", "collaborators/sara-campbell.png"),
+    array("Sperry", "", "collaborators/sperry.svg"),
+    array("Stride Rite", "", "collaborators/stride-rite.svg"),
+    array("Boston Consulting Group", "", "collaborators/bcg.svg"),
+    array("Tripadvisor", "", "collaborators/tripadvisor.svg"),
+    array("Northshore Magazine", "", "collaborators/northshore-magazine.png"),
+    array("Coldwell Banker", "", "collaborators/coldwell-banker.svg"),
+    array("Gulf", "", "collaborators/gulf.svg"),
+    array("CBS Boston", "", "collaborators/cbs-boston.jpg"),
+    array("NH1 News", "", "collaborators/nh1-news.jpg"),
+    array("WBZ 4", "", "collaborators/wbz-4.svg"),
   );
 ?>
 
@@ -22,22 +40,38 @@
 
 <div class="container" style="max-width: 800px">
   <div class="text-center m-5">
-    <h1 class="text-darkgray mb-5">Our work.</h1>
 
+    <!-- PRESS ARTICLES -->
+    <h1 class="text-darkgray mb-5">Our work.</h1>
     <div class="row">
       <!-- Start Loop -->
       <?php for ($i = 0; $i < sizeof($press_content); $i++) : ?>
         <div class="col-sm-12 mx-auto col-md-6">
           <a href="<?php echo $press_content[$i][1] ?>">
             <img src="<?php echo $image_root_path . $press_content[$i][2] ?>"
-            class="img-fluid" width="333" height="250">
+            class="img-fluid" width="333" height="250" alt="<?php echo $press_content[$i][0] ?>">
           </a>
           <p style="font-size: 1.3em" class="text-gold my-1"><?php echo $press_content[$i][0] ?></p>
         </div>
       <?php endfor; ?>
       <!-- End Loop -->
     </div>
+    <!-- END PRESS ARTICLES -->
 
+    <!-- COLLABORATORS -->
+    <h1 class="text-darkgray my-5">In collaboration with</h1>
+      <div class="row">
+        <?php for ($i = 0; $i < sizeof($collaborators); $i ++) : ?>
+        <div class="col-sm-4 col-md-4 my-2">
+          <a href="<?php echo $collaborators[$i][1] ?>">
+            <img src="<?php echo $image_root_path . $collaborators[$i][2] ?>" 
+            width="200" height="125" alt="<?php echo $collaborators[$i][0] ?>">
+          </a>
+        </div>
+      <?php endfor; ?>
+
+      </div>
+    <!-- END COLLABORATORS -->
   </div>
 </div>
 
