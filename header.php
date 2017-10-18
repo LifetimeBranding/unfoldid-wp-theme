@@ -36,10 +36,10 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <!-- Left: Links -->
             <div style="word-spacing: 10px" class="mr-3">
-              <a target="_blank" href="//facebook.com/unfoldid"><i class="fa fa-facebook fa-lg text-navy"></i></a>
-              <a target="_blank" href="//instagram.com/unfoldid"><i class="fa fa-instagram fa-lg text-navy"></i></a>
-              <a target="_blank" href="//pinterest.com/unfoldid/pins"><i class="fa fa-pinterest fa-lg text-navy"></i></a>
-              <a target="_blank" href="//linkedin.com/company/unfoldid/"><i class="fa fa-linkedin-square fa-lg text-navy"></i></a>
+              <a target="_blank" href="//facebook.com/unfoldid"><span class="fa fa-facebook fa-lg text-navy"></span></a>
+              <a target="_blank" href="//instagram.com/unfoldid"><span class="fa fa-instagram fa-lg text-navy"></span></a>
+              <a target="_blank" href="//pinterest.com/unfoldid/pins"><span class="fa fa-pinterest fa-lg text-navy"></span></a>
+              <a target="_blank" href="//linkedin.com/company/unfoldid/"><span class="fa fa-linkedin-square fa-lg text-navy"></span></a>
             </div>
             <span class="d-block text-gold mr-auto" style="font-size: 1.2em; font-weight: 500">personal: styling. shopping. wellness.</span>
 

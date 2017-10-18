@@ -41,14 +41,14 @@ get_header();
       <div class="position: relative; height: 100%">
         <div id="about-arrow-left">
         <span onclick="$('.owl-carousel').trigger('prev.owl.carousel');" class="fa-stack fa-lg">
-          <i  class="fa fa-long-arrow-left fa-stack-1x"></i>
-          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <span class="fa fa-long-arrow-left fa-stack-1x"></span>
+          <span class="fa fa-circle-thin fa-stack-2x"></span>
           </span>
         </div>
         <div id="about-arrow-right">
         <span onclick="$('.owl-carousel').trigger('next.owl.carousel');" class="fa-stack fa-lg">
-          <i  class="fa fa-long-arrow-right fa-stack-1x"></i>
-          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <span class="fa fa-long-arrow-right fa-stack-1x"></span>
+          <span class="fa fa-circle-thin fa-stack-2x"></span>
           </span>
         </div>
       </div>

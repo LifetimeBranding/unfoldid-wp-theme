@@ -51,7 +51,7 @@
         <div class="col-sm-12 mx-auto col-md-6 my-3">
           <a href="<?php echo $press_content[$i][1] ?>">
             <img src="<?php echo $image_root_path . $press_content[$i][2] ?>"
-            width="333" height="250" alt="<?php echo $press_content[$i][0] ?>">
+            width="333" height="250" class="img-fluid" alt="<?php echo $press_content[$i][0] ?>">
           </a>
           <p style="font-size: 1.3em" class="text-gold my-1"><?php echo $press_content[$i][0] ?></p>
         </div>

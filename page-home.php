@@ -134,7 +134,7 @@ get_header();
       $('#section__home--step-carousel').owlCarousel({
         center: true,
         nav: true,
-        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+        navText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
         responsive: {
           0: {
             items: 1,
@@ -154,7 +154,7 @@ get_header();
         nav: true,
         margin: 10,
         stagePadding: 50,
-        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+        navText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
         responsive: {
           0: {
             items: 1,

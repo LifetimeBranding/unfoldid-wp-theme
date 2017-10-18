@@ -45,7 +45,7 @@ get_header();
                   <button class="button__white-black font__halcolm button__booknow mt-3">book now</button>
                   <hr>
                 </div>
-                <p data-toggle="collapse" data-target="#toggle-style-unfoldid"><i class="fa fa-chevron-down"></i></p>
+                <p data-toggle="collapse" data-target="#toggle-style-unfoldid"><span class="fa fa-chevron-down"></span></p>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ get_header();
                   <button class="button__white-black font__halcolm button__booknow mt-3">book now</button>
                   <hr>
                 </div>
-                <p data-toggle="collapse" data-target="#toggle-style-insider"><i class="fa fa-chevron-down"></i></p>
+                <p data-toggle="collapse" data-target="#toggle-style-insider"><span class="fa fa-chevron-down"></span></p>
               </div>
             </div>
 
@@ -94,7 +94,7 @@ get_header();
                   <button class="button__white-black font__halcolm button__booknow mt-3">book now</button>
                   <hr>
                 </div>
-                <p data-toggle="collapse" data-target="#toggle-style-id"><i class="fa fa-chevron-down"></i></p>
+                <p data-toggle="collapse" data-target="#toggle-style-id"><span class="fa fa-chevron-down"></span></p>
               </div>
             </div>
           </div>
@@ -275,7 +275,7 @@ get_header();
     $('.owl-carousel').owlCarousel({
       nav: true,
       margin: 10,
-      navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+      navText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
       responsive: {
         0: {
           items: 1,

@@ -63,7 +63,7 @@ get_header();
       stagePadding: 50,
       margin: 10,
       nav: true,
-      navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+      navText : ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],
       responsive: {
         0: {
           items: 1,

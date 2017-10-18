@@ -49,10 +49,10 @@
     <!-- social media -->
     <div class="col-sm-12 col-md-4">
       <div class="text-center py-5">
-        <a target="_blank" href="//facebook.com/unfoldid"><i class="fa fa-facebook fa-2x mx-1 text-gold"></i></a>
-        <a target="_blank" href="//instagram.com/unfoldid"><i class="fa fa-instagram fa-2x mx-1 text-gold"></i></a>
-        <a target="_blank" href="//pinterest.com/unfoldid/pins"><i class="fa fa-pinterest fa-2x mx-1 text-gold"></i></a>
-        <a target="_blank" href="//linkedin.com/company/unfoldid"><i class="fa fa-linkedin-square mx-1 fa-2x text-gold"></i></a>
+        <a target="_blank" href="//facebook.com/unfoldid"><span class="fa fa-facebook fa-2x mx-1 text-gold"></span></a>
+        <a target="_blank" href="//instagram.com/unfoldid"><span class="fa fa-instagram fa-2x mx-1 text-gold"></span></a>
+        <a target="_blank" href="//pinterest.com/unfoldid/pins"><span class="fa fa-pinterest fa-2x mx-1 text-gold"></span></a>
+        <a target="_blank" href="//linkedin.com/company/unfoldid"><span class="fa fa-linkedin-square mx-1 fa-2x text-gold"></span></a>
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@ Login
   <!-- Modal content-->
   <div class="modal-content">
     <div class="modal-header" style="padding:35px 50px;">
-      <button type="button" class="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+      <button type="button" class="close" data-dismiss="modal"><span class="fa fa-close"></span></button>
       <h4 class="font__halcom"><span class="fa fa-book"></span>Book Now</h4>
     </div>
     <div class="modal-body" style="padding:40px 50px;">
