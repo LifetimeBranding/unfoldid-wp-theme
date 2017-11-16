@@ -1,6 +1,4 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
 
   <!-- Section: Hero -->
   <div class="row hero" id="section__about-hero"></div>
@@ -174,6 +172,54 @@ get_header();
                   working on a variety of roles in fashion.
                 </p>
                 <button class="button__white-black button__booknow">book Aricia</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div id="stylist-bio-amy" class="col-xs-12 col-md-4 image__stylist">
+            </div>
+            <div class="col-xs-12 col-md-8 pink text-center py-5 stylist__bio">
+              <div class="mx-auto text-white" style="max-width: 700px">
+                <h1 class="font__escrow-banner bigger">Amy</h1>
+                <h3 class="font__halcom">stylist</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/amy.jpg" alt="Amy" class="d-sm-none image__headshot">
+                <p class="py-5" style="font-size: 1em;">
+Amy Finegold has always had a passion for retail, which lead her to choose it as a career path while studying French and Art History at Tufts University. After mastering folding from working at Gap and graduating, Amy chose to work at specialty boutiques, exposing her to different aspects of sales, buying and owning a small business. She made her dreams a reality when she and her husband opened Dresscode in downtown Andover in September 2004. Building loyal clientele, winning numerous awards and expanding, Dresscodes’ goal was to create an experience by bringing unique and quality designers to each customer. In the search for more balance and to do more of what she loves, Amy closed her doors to share her love of clothing and the ability to empower women through dressing by joining the esteemed team at Unfoldid.
+                </p>
+                <button class="button__white-black button__booknow">book Amy</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div id="stylist-bio-annette" class="col-xs-12 col-md-4 image__stylist">
+            </div>
+            <div class="col-xs-12 col-md-8 navy text-center py-5 stylist__bio">
+              <div class="mx-auto text-white" style="max-width: 700px">
+                <h1 class="font__escrow-banner bigger">Annette</h1>
+                <h3 class="font__halcom">stylist</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/annette.jpg" alt="Annette" class="d-sm-none image__headshot">
+                <p class="py-5" style="font-size: 1em;">
+Annette Najarian is a Boston girl born and raised. Graduating from Suffolk University with a BS in Communications, Annette worked in Marketing and Education before becoming a mom. Annette's first love has always been fashion, as she truly loves helping people look and feel their best. With her keen sense of style, Annette pieces together the perfect outfit for an event or finds that important addition to your wardrobe. After years spent raising her family, Annette has decided to finally pursue her love of fashion by joining the Unfoldid team. With an effortless style of her own, Annette will work with you to create a wardrobe that will express your own personal style to become the best version of you.
+                </p>
+                <button class="button__white-black button__booknow">book Annette</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div id="stylist-bio-nicole" class="col-xs-12 col-md-4 image__stylist">
+            </div>
+            <div class="col-xs-12 col-md-8 olive text-center py-5 stylist__bio">
+              <div class="mx-auto text-white" style="max-width: 700px">
+                <h1 class="font__escrow-banner bigger">Nicole</h1>
+                <h3 class="font__halcom">stylist</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/stylist-photos/headshots/nicole.jpg" alt="Nicole" class="d-sm-none image__headshot">
+                <p class="py-5" style="font-size: 1em;">
+Nicole Jangro graduated from Bentley with a degree in Finance. With her own signature look, Nicole climbed the corporate ladder in finance and accounting. She held many high level executive roles and relied on her flawless classic style to express her confidence at work. After many years in corporate America, Nicole wanted a position where she could help women feel confident in the clothing they choose. She works to help her clients express their best self with a personalized, comfortable look that creates confidence and shows the world who you truly are, irreplaceable.
+                </p>
+                <button class="button__white-black button__booknow">book Nicole</button>
               </div>
             </div>
           </div>

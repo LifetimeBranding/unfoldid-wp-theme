@@ -459,6 +459,7 @@ blockquote#homepage-quote {
 #stylist-bio-jessica {
   background-image: url('images/stylist-photos/jessica.jpg');
 }
+
 #stylist-bio-aricia {
   background-image: url('images/aricia-pic-large.jpg');
 }
@@ -481,6 +482,18 @@ blockquote#homepage-quote {
   background-size: cover !important;
 }
 
+#stylist-bio-amy {
+  background-image: url('images/stylist-photos/amy.jpg');
+  background-size: cover !important;
+}
+#stylist-bio-annette {
+  background-image: url('images/stylist-photos/annette.jpg');
+  background-size: cover !important;
+}
+#stylist-bio-nicole {
+  background-image: url('images/stylist-photos/nicole.jpg');
+    background-size: cover !important;
+}
 /*
 *
 * 
